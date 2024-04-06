@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bonheur+Royale&display=swap');
+@font-face {
+    font-family: Vogue;
+    src: url(vogue/Vogue.ttf) format('truetype');
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family:'Vogue',sans-serif;
+    margin: 0;
+    
+}
+.bonheur-royale-regular {
+    font-family: "Bonheur Royale", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.top{
+    display: inline;
+    
+}
+.top a{
+    text-decoration: none;
+    font-size: medium;
+    border: 0px;
+    border-color: black;
+    border-style: dashed;
+}
+.flex-container {
+    display: flex;
+    background-color: grey;
+    padding: 1.5%;
+}
+
+.explore {
+    margin-right: none; 
+}
+
+.saved {
+    margin-left:45px; 
+}
+
+.planner {
+    margin-left: 55px; 
+}
+
+.login {
+    margin-left: 1050px;
+}
+
+.signup {
+    margin-left: 50px; 
+}
+header {
+    position: relative; /* Ensure the header is a positioned container for absolute positioning */
+    background-image: url('top.png'); /* Set the background image */
+    background-size: cover; /* Cover the entire header with the background image */
+    background-position: center; /* Center the background image */
+    height: 80px; /* Set the height of the header */
+}
+
+h1 {
+    position: absolute; /* Position the text absolutely */
+    top: 50%; /* Position the text at the vertical center */
+    left: 50%; /* Position the text at the horizontal center */
+    transform: translate(-50%, -90%); /* Center the text precisely */
+    color: rgb(245, 239, 239); /* Set the text color */
+    font-size: 58px; /* Set the font size */
+    text-transform: uppercase; /* Convert text to uppercase */
+    padding: 20px; /* Add padding around the text */
+}
+a:visited {
+    color: inherit;
+}
+.image-slider {
+    display: flex;
+    overflow: hidden; /* Hide overflow to prevent scrollbar */
+    gap: 10px; /* Add a gap between images */
+}
+
+.image-slider img {
+    width: 10%; /* Set the width to occupy 30% of the container */
+    height: auto; /* Maintain aspect ratio */
+    flex-shrink: 0;
+    border-radius: 10px; /* Add rounded corners */
+}
+
+.prev-btn, .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth hover transition */
+}
+
+.prev-btn:hover, .next-btn:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+.next-btn {
+    right: 10px;
+}

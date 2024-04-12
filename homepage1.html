@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="logo.png" style="height: 170px; width: auto; transform:translate(-120px,-35px)"></a>
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#sec">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="login.html" target="_blank">LogIn</a></li>
+            
+        </ul>
+    </header>
+    <section>
+       <img src="milkspill.png" id="milk" style="transform: translateX(390px);">
+        <h2 id="text">Flavour🍴Voyage</h2>
+        <div id="btn">
+        <form id="search-form">
+            <input type="text" id="search-query" placeholder="Explore Recipes..." style="transform: translateX(20px);mix-blend-mode:screen;background-color:rgba(255, 255, 255, 0.0);">
+             <button type="submit"><i class="fas fa-search"></i></button>
+         </form>
+        </div>
+        <img src="grapes.png" id="grapes" style="height: 800px; width: auto;transform: translate(-200px,1150px);">
+        <img src="Guava.png" id="guava" style="height: 800px; width: auto;transform: translate(950px,850px);">
+        <img src="strawberry.png" id="strawberry" style="height: 800px; width: auto; transform: translate(-200px,150px);">
+        
+    </section>
+
+    </div>
+    <div id="sec">
+        <h2>About Us</h2>
+        <p>"Welcome to Flavour Voyage, your passport to culinary exploration! Say goodbye to recipe ruts and food waste. 
+            <br>Simply input your pantry ingredients, and let our innovative AI do the rest. Discover personalized recipe
+            <br> suggestions, tailored to your tastes and dietary preferences. Cooking has never been this effortless or exciting.
+            <br> Join us in transforming your kitchen into a realm of endless possibilities. Let's cook smarter, waste less, and savor
+             <br>more with Flavour Voyage.Simply start by creating a profile and inputting the ingredients you have in your pantry. 
+             <br>Our smart algorithm will then suggest delicious recipes tailored to your available ingredients, dietary preferences,
+             <br> and cooking style. Explore, cook, and enjoy hassle-free meals while reducing food waste. Get ready to embark on a culinary
+             <br> adventure like never before!"</p>
+    </div>
+    <div id="sec2">
+        "From classic comfort foods to exotic international cuisines, our database is brimming with inspiration for every palate and occasion.
+        Whether you're a seasoned chef looking to try something new or a novice cook eager to expand your repertoire, Flavour Voyage has something for everyone.
+        But our commitment goes beyond just providing recipes. We're dedicated to promoting sustainability and reducing food waste.
+        By utilizing the ingredients you already have in your pantry, we help minimize unnecessary trips to the grocery store and encourage mindful consumption.
+        And the best part? Our AI-driven platform continuously learns from your preferences and feedback, refining its recommendations with each interaction.
+        So what are you waiting for? Join us on Flavour Voyage today and unlock a world of culinary delights.
+        Let's knock it out together and make every meal a celebration of flavor, creativity, and conscious living. "</p>
+        <h2>Bon appétit!</h2>
+    </div>
+   
+
+    
+    <script>
+        let milk = document.getElementById('milk');
+        let grapes = document.getElementById('grapes');
+        let guava= document.getElementById('guava');
+        let strawberry = document.getElementById('strawberry');
+        let text = document.getElementById('text');
+
+        let header = document.querySelector('header');
+        window.addEventListener('scroll',function(){
+            let value = window.scrollY;
+            milk.style.left = value*0.5 + 'px';
+            strawberry.style.left = value * -0.5 + 'px';
+            text.style.marginBottom = value*4 +'px';
+            header.style.top =  value * 0.5 + 'px';
+
+        })
+    </script>
+    <footer>
+        <div class="foot">
+            <div class="footer-content">
+                <p>&copy; 2023 Flavour Voyage. All rights reserved.</p>
+                <ul>
+                    <li><a href="homepage1.html">Home</a></li>
+                    <li><a href="#sec">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="login.html">LogIn</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

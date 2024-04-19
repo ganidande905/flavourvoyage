@@ -13,7 +13,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('login.jpg') no-repeat ;
+    background: url('/assets/login.jpg') no-repeat ;
     background-size: cover;
     background-position: center;
 
@@ -98,14 +98,17 @@ body{
     text-align: center;
     margin: 20px 0 15px;
 }
-.register-link p a{
+.register-link a i{
     color:black;
     text-decoration: none;
     font-weight: 600;
-
+    font-size: 25px;
+    transition: transform 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+    margin-right: 30px;
+    transform: translateX(20px);
 }
-.register-link p a:hover{
-    text-decoration: underline;
+.register-link a:hover i {
+    transform: scale(1.5); 
 }
 header{
     position:absolute;

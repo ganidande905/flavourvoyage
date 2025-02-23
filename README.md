@@ -31,3 +31,17 @@ I built **Flavour Voyage** to practice my **HTML, CSS, and JavaScript** skills. 
 This project is purely for **practice and learning**. Feel free to explore, modify, and improve upon it! 🚀  
 
 ### Bon appétit! 🍽️  
+
+
+
+
+https://github.com/user-attachments/assets/d8c303de-c467-46d9-bdcd-136549635218
+
+
+<img width="1512" alt="Screenshot 2025-02-23 at 19 41 24" src="https://github.com/user-attachments/assets/d1172a8a-07b6-4b72-9b86-ed9a04c57136" />
+<img width="1512" alt="Screenshot 2025-02-23 at 19 41 13" src="https://github.com/user-attachments/assets/deb80502-311e-4490-a6e7-1f1deda46b7f" />
+
+
+
+
+
